@@ -1,0 +1,16 @@
+aspect,sentiment,frequency
+food,Positive,1418
+food,Negative,431
+food,Neutral,151
+service,Positive,1492
+service,Negative,477
+service,Neutral,31
+ambience,Positive,1492
+ambience,Negative,458
+ambience,Neutral,50
+price,Positive,1411
+price,Negative,515
+price,Neutral,74
+location,Positive,1289
+location,Negative,472
+location,Neutral,239

@@ -1,0 +1,57 @@
+Model,Metric,Value
+VADER,Accuracy,0.773
+VADER,Accuracy_CI_Lower,0.7647
+VADER,Accuracy_CI_Upper,0.7811
+VADER,KPI_Test_N,10000
+VADER,F1_Positive,0.8688
+VADER,Precision_Positive,0.7793
+VADER,Recall_Positive,0.9815
+VADER,F1_Negative,0.5744
+VADER,Precision_Negative,0.7773
+VADER,Recall_Negative,0.4555
+VADER,F1_Neutral,0.0259
+VADER,Precision_Neutral,0.1616
+VADER,Recall_Neutral,0.0141
+Logistic Regression,Accuracy,0.8536
+Logistic Regression,Accuracy_CI_Lower,0.8465
+Logistic Regression,Accuracy_CI_Upper,0.8604
+Logistic Regression,KPI_Test_N,10000
+Logistic Regression,F1_Positive,0.9249
+Logistic Regression,Precision_Positive,0.8848
+Logistic Regression,Recall_Positive,0.9687
+Logistic Regression,F1_Negative,0.7962
+Logistic Regression,Precision_Negative,0.8091
+Logistic Regression,Recall_Negative,0.7837
+Logistic Regression,F1_Neutral,0.3551
+Logistic Regression,Precision_Neutral,0.5564
+Logistic Regression,Recall_Neutral,0.2608
+BERT,Accuracy,0.8764
+BERT,Accuracy_CI_Lower,0.8698
+BERT,Accuracy_CI_Upper,0.8827
+BERT,KPI_Test_N,10000
+BERT,F1_Positive,0.9429
+BERT,Precision_Positive,0.9367
+BERT,Recall_Positive,0.9492
+BERT,F1_Negative,0.8387
+BERT,Precision_Negative,0.8314
+BERT,Recall_Negative,0.846
+BERT,F1_Neutral,0.5065
+BERT,Precision_Neutral,0.5382
+BERT,Recall_Neutral,0.4784
+LDA,Coherence,0.5573
+BERTopic,Coherence,0.4144
+LDA,TuningHistory_JSON,"[{""Configuration"": ""Baseline (10 topics)"", ""C_V Score"": 0.4815, ""Decision"": ""Baseline""}, {""Configuration"": ""Optimal (11 topics)"", ""C_V Score"": 0.5427, ""Decision"": ""Improved""}, {""Configuration"": ""Custom stopwords"", ""C_V Score"": 0.5361, ""Decision"": ""Rejected""}, {""Configuration"": ""Looser filter"", ""C_V Score"": 0.5482, ""Decision"": ""Rejected""}, {""Configuration"": ""Bigrams/trigrams"", ""C_V Score"": 0.5005, ""Decision"": ""Rejected""}, {""Configuration"": ""Final (passes=15)"", ""C_V Score"": 0.5573, ""Decision"": ""Final""}]"
+Overall,KPI_Total_Reviews,50000
+Overall,KPI_Avg_Stars,3.85
+Overall,KPI_Positive_Pct,69.9
+Overall,KPI_Negative_Pct,18.8
+Overall,KPI_Neutral_Pct,11.4
+LDA,KPI_N_Topics,11
+LDA,KPI_Coverage_Pct,100.0
+BERTopic,KPI_Coverage_Pct,58.7
+LDA,KPI_Proxy_GT_Alignment,74.2
+LDA,KPI_Proxy_GT_NumCategories,14
+McNemar,BERT_vs_VADER_Statistic,583.1087
+McNemar,BERT_vs_VADER_PValue,7.904e-129
+McNemar,BERT_vs_LR_Statistic,44.3451
+McNemar,BERT_vs_LR_PValue,2.753e-11
